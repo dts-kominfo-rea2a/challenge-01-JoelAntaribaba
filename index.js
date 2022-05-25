@@ -29,6 +29,7 @@ let secondUserFr = new Array(
 );
 
 let firstUserSet = new Set(firstUserFr);
+let secondUserSet = new Set(secondUserFr);
 
 const firstUser = {
   name: "Monica",
@@ -58,7 +59,7 @@ const secondUser = {
     { name: "SMA 01", city: "Surabaya", graduate: 2016 },
     { name: "Universitas Maju", city: "Tangerang" },
   ],
-  favoriteRestaurant: secondUserFr,
+  favoriteRestaurant: secondUserSet,
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
