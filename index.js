@@ -1,6 +1,35 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
+
+let firstUserFr = new Array(
+  "Bento",
+  "Sushi",
+  "Pancake",
+  "Eggy",
+  "Tempura",
+  "Bento",
+  "Eggy",
+  "Padang",
+  "Tteok",
+  "Sushi",
+  "Sushi"
+);
+
+let secondUserFr = new Array(
+  "Tempura",
+  "Bento",
+  "Sushi",
+  "Pancake",
+  "Padang",
+  "Katsu",
+  "Geprek",
+  "Pancake",
+  "Eggy"
+);
+
+let firstUserSet = new Set(firstUserFr);
+
 const firstUser = {
   name: "Monica",
   gender: "Female",
@@ -13,19 +42,7 @@ const firstUser = {
     { name: "SMP 02", city: "Jakarta", graduate: 2019 },
     { name: "SMA 03", city: "Tangerang" },
   ],
-  favoriteRestaurant: [
-    "Bento",
-    "Sushi",
-    "Pancake",
-    "Eggy",
-    "Tempura",
-    "Bento",
-    "Eggy",
-    "Padang",
-    "Tteok",
-    "Sushi",
-    "Sushi",
-  ],
+  favoriteRestaurant: firstUserSet,
 };
 
 const secondUser = {
@@ -41,17 +58,7 @@ const secondUser = {
     { name: "SMA 01", city: "Surabaya", graduate: 2016 },
     { name: "Universitas Maju", city: "Tangerang" },
   ],
-  favoriteRestaurant: [
-    "Tempura",
-    "Bento",
-    "Sushi",
-    "Pancake",
-    "Padang",
-    "Katsu",
-    "Geprek",
-    "Pancake",
-    "Eggy",
-  ],
+  favoriteRestaurant: secondUserFr,
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
