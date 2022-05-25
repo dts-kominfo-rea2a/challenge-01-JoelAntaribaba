@@ -19,8 +19,12 @@ const firstUser = {
     "Pancake",
     "Eggy",
     "Tempura",
+    "Bento",
+    "Eggy",
     "Padang",
     "Tteok",
+    "Sushi",
+    "Sushi",
   ],
 };
 
@@ -45,6 +49,7 @@ const secondUser = {
     "Padang",
     "Katsu",
     "Geprek",
+    "Pancake",
     "Eggy",
   ],
 };
